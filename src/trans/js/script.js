@@ -134,7 +134,13 @@ function toLatin(data) {
       
       if (lc == 'ї') {
         
-        res += (c == lc) ? 'ji' : 'Ji'
+        res += (c == lc) ? 'j' : 'J'
+        
+        if (apostrophe) {
+          res += (c == lc) ? 'i' : 'I'
+        } else {
+          res += 'i'
+        }
         
       } else {
         
