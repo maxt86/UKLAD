@@ -234,7 +234,7 @@ function toCyrillic(data) {
       if (ln == 'i') {
         
         let lp = prev.toLowerCase()
-        if (latinConsonants.includes(lp) && next == ln) {
+        if (latinConsonants.includes(lp) && next != ln) {
           res += "'"
         }
         
