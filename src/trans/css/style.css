@@ -26,6 +26,7 @@ html {
 
 .textarea::placeholder {
   color: black;
+  opacity: 1;
 }
 
 .cyrillic {
