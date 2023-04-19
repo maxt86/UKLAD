@@ -24,6 +24,10 @@ html {
   font-size: 1.6rem;
 }
 
+.textarea::placeholder {
+  color: black;
+}
+
 .cyrillic {
   background-color: blue;
 }
